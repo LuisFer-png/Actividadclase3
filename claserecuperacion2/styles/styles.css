@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+.cartel {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-align: center;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    color: #2d3436;
+}
+.cartel h1 {
+    font-size: 2.5rem;
+    color: #d63031;
+    margin-bottom: 20px;
+}
+.cartel img {
+
+    width: 100%;
+    max-height: 480px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.cartel p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.cta {
+    display: inline-block;
+    text-decoration: none;
+    background: #00cec9;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+.cta:hover{
+    background: #01a3a4;
+}
