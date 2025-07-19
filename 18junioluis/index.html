@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles/syles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="logocontainer">
+            <h1>El ahorcado</h1>
+        </div>
+        <div id="botonempezar">
+            <button id="botoniniciar">Empezar juego</button>
+        </div>
+        <div id="imagenahorcado">
+            <img src="./img/01.jpeg" alt="" class="imagenahorcado" style="display: none;">
+        </div>
+        <div id="contenedorLetra" style="display: none;">
+            <label for="inputLetra">ingresa una letra</label>
+            <input type="text" id="inputLetra" maxlength="1" onkeypress="checkEnter()">
+        </div>
+        <div id="mensajes">
+            <ul id="errores"></ul>
+            <ul id="nIntentos"></ul>
+            <ul id="pAdivinar"></ul>
+        </div>
+    </div>
+    <script src="./main.JS"></script>
+</body>
+</html>
